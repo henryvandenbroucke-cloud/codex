@@ -14,6 +14,16 @@ Personal planner website and mobile projects for iPhone/iPad and Android.
 
 The website was provided as one bundled `index.html`. Its JavaScript and styles are included in that file; the original unbundled frontend source was not provided.
 
+## Privacy and release review
+
+- [Privacy policy draft](docs/PRIVACY-POLICY-DRAFT.md), using the publisher-confirmed contact details
+- [Standalone privacy-page draft](privacy.html), ready to preview locally and finalize before hosting
+- [Code findings and store release checklist](docs/APP-STORE-REVIEW.md)
+- [Apple/Google data-disclosure worksheet](docs/STORE-DATA-DISCLOSURES.md)
+- [Uploaded Pebble Worker source](backend/pebble-worker.js)
+
+These are drafts and review findings. Current official web-source verification is blocked by the cloud environment network allowlist; the required domain additions were saved for review. The policy still needs production retention, hosting-region and other marked details. No consent/deletion fixes or store submission were performed by writing these documents.
+
 ## Download the prepared files
 
 - [Complete mobile project ZIP](downloads/soft-os-mobile.zip)

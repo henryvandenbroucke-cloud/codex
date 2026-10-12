@@ -1,0 +1,27 @@
+{
+  "normalAIRequests": 2,
+  "newChatMadeExtraSummaryRequest": true,
+  "firstRequestRoles": [
+    "system",
+    "user"
+  ],
+  "firstRequestIncludes": {
+    "name": true,
+    "task": true,
+    "event": true,
+    "habit": true,
+    "mood": true,
+    "rememberedFacts": true
+  },
+  "secondRequestIncludesEarlierConversation": true,
+  "errors": [],
+  "afterErase": {
+    "nameRetained": true,
+    "goalsRetained": true,
+    "backupRetained": true,
+    "tasksRemaining": 0,
+    "memoryRemaining": 0
+  },
+  "test_method": "Chromium phone viewport, fresh synthetic local data, mocked Cloudflare model/chat responses, all other external HTTP requests blocked. No real user data sent to an AI provider.",
+  "review_date": "2026-10-12"
+}

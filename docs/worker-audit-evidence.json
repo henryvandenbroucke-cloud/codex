@@ -1,0 +1,15 @@
+{
+  "review_date": "2026-10-12",
+  "synthetic_only": true,
+  "defaultPermitsUnlistedOrigin": true,
+  "forwardsToGroq": true,
+  "forwardsMessageContent": true,
+  "holdsSecretServerSide": true,
+  "modelAllowlistEnforced": true,
+  "tokenCapEnforced": true,
+  "unlistedOriginRejectedWhenConfigured": true,
+  "callerSuppliedAllowedOriginAcceptedWithoutOtherAuthentication": true,
+  "messageCharacterCapEnforced": true,
+  "sameInstanceIpRateLimitEnforced": true,
+  "upstreamRawErrorNotEchoed": true
+}
