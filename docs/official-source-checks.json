@@ -1,84 +1,217 @@
 {
   "attempted_on": "2026-10-12",
-  "status": "Blocked by environment network allowlist; not live-verified",
+  "status": "Official Apple, Google and provider pages retrieved and reviewed; EUR-Lex full-law endpoint returned an empty response; EU Commission rights guidance retrieved",
   "sources": [
     {
       "id": "apple-review",
       "url": "https://developer.apple.com/app-store/review/guidelines/",
-      "status": "failed",
-      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      "final_url": "https://developer.apple.com/app-store/review/guidelines/",
+      "bytes": 237848,
+      "status": "fetched",
+      "sha256": "e711efcb35b419dcc8e922fb5d6c0815dc0173169fb0f30eabf5cc269064e42e"
     },
     {
       "id": "apple-privacy",
       "url": "https://developer.apple.com/app-store/app-privacy-details/",
-      "status": "failed",
-      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      "final_url": "https://developer.apple.com/app-store/app-privacy-details/",
+      "bytes": 134778,
+      "status": "fetched",
+      "sha256": "d5201ce72765a84cd9e258e5730b3ce75890b5ac9bfcf0cc89bed0f4643fb93b"
     },
     {
       "id": "google-user-data",
       "url": "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
-      "status": "failed",
-      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      "final_url": "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+      "bytes": 1681563,
+      "status": "fetched",
+      "sha256": "2e1f83f6d203c3739c39a955b49cbda48056708e0a7f85abc063519e334567a7"
     },
     {
       "id": "google-data-safety",
       "url": "https://support.google.com/googleplay/android-developer/answer/10787469?hl=en",
-      "status": "failed",
-      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      "final_url": "https://support.google.com/googleplay/android-developer/answer/10787469?hl=en",
+      "bytes": 1728282,
+      "status": "fetched",
+      "sha256": "6e6f7ed1ae2a5616aae4b09479faec2c0fb5c8d3df3b50e904946ab376c77896"
     },
     {
       "id": "google-delete-account",
       "url": "https://support.google.com/googleplay/android-developer/answer/13327111?hl=en",
-      "status": "failed",
-      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      "final_url": "https://support.google.com/googleplay/android-developer/answer/13327111?hl=en",
+      "bytes": 1661277,
+      "status": "fetched",
+      "sha256": "5386fc26c5eb176fb757bc63f7582134eb584814bb8d83e8a61620b48184d5f2"
     },
     {
       "id": "google-ai-content",
       "url": "https://support.google.com/googleplay/android-developer/answer/13985936?hl=en",
-      "status": "failed",
-      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      "final_url": "https://support.google.com/googleplay/android-developer/answer/13985936?hl=en",
+      "bytes": 1628885,
+      "status": "fetched",
+      "sha256": "ca8aca68becd39a4302e352bd2f3bc1aa98fd620e00dfb8ce472c8827f0e5a25"
     },
     {
       "id": "google-testing",
       "url": "https://support.google.com/googleplay/android-developer/answer/14151465?hl=en",
-      "status": "failed",
-      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      "final_url": "https://support.google.com/googleplay/android-developer/answer/14151465?hl=en",
+      "bytes": 1662618,
+      "status": "fetched",
+      "sha256": "75f313789a25449ec389de789ef611ee70ed3c253649b00dc8d60a9bf5c18d06"
     },
     {
       "id": "google-target-api",
       "url": "https://support.google.com/googleplay/android-developer/answer/11926878?hl=en",
-      "status": "failed",
-      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      "final_url": "https://support.google.com/googleplay/android-developer/answer/11926878?hl=en",
+      "bytes": 1662955,
+      "status": "fetched",
+      "sha256": "65d8a9cb91bd20b15dd30d0a13cbab5d3da57a2f2de8c233f252a599e06abd65"
     },
     {
       "id": "apple-upcoming",
       "url": "https://developer.apple.com/news/upcoming-requirements/",
-      "status": "failed",
-      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      "final_url": "https://developer.apple.com/news/upcoming-requirements/",
+      "bytes": 137164,
+      "status": "fetched",
+      "sha256": "ebdd2459e9972d1f1a37403467cc0e732e59559acede190227c57e2c7226b11c"
     },
     {
       "id": "gdpr",
       "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng",
-      "status": "failed",
-      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng",
+      "bytes": 0,
+      "status": "empty_response"
     },
     {
       "id": "groq-data",
       "url": "https://console.groq.com/docs/your-data",
-      "status": "failed",
-      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      "final_url": "https://console.groq.com/docs/your-data",
+      "bytes": 303054,
+      "status": "fetched",
+      "sha256": "11953883dffc21c5db328df23b4d0ff37cd2ba7414df6d98b5034ed03f7a4296"
     },
     {
       "id": "supabase-dpa",
       "url": "https://supabase.com/legal/dpa",
-      "status": "failed",
-      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      "final_url": "https://supabase.com/legal/customer-resources/data-processing-addendum",
+      "bytes": 103665,
+      "status": "fetched",
+      "sha256": "0573efafdfff74315eaa3747d4d0eb871be3c78a00fa6d2f90f00a05330ffb7e"
     },
     {
       "id": "cloudflare-dpa",
       "url": "https://www.cloudflare.com/cloudflare-customer-dpa/",
-      "status": "failed",
-      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      "final_url": "https://www.cloudflare.com/cloudflare-customer-dpa/",
+      "bytes": 339007,
+      "status": "fetched",
+      "sha256": "912d2b1ac7d05abb05286e903f8f8e474bcf3de7aed74f7fdf11419faaf1ef42"
+    },
+    {
+      "id": "apple-enrollment",
+      "url": "https://developer.apple.com/programs/enroll/",
+      "final_url": "https://developer.apple.com/programs/enroll/",
+      "bytes": 109517,
+      "status": "fetched",
+      "sha256": "f407d2f378108ba02ae24a9dd7c759c91e223d2999ba984b999c4df30560bf7b"
+    },
+    {
+      "id": "google-enrollment",
+      "url": "https://support.google.com/googleplay/android-developer/answer/6112435?hl=en",
+      "final_url": "https://support.google.com/googleplay/android-developer/answer/6112435?hl=en",
+      "bytes": 1633731,
+      "status": "fetched",
+      "sha256": "02471342a441dcbdaed50d90e07f0e92437b987b75c5de62eba99f999963302e"
+    },
+    {
+      "id": "eu-privacy-rights",
+      "url": "https://commission.europa.eu/law/law-topic/data-protection/information-individuals_en",
+      "final_url": "https://commission.europa.eu/law/law-topic/data-protection/information-individuals_en",
+      "bytes": 200909,
+      "status": "fetched",
+      "sha256": "391c4b509d8fc550409a8e956c4c8f53b690b546b1402634837a2f65a12b4e4f"
     }
-  ]
+  ],
+  "previous_blocked_attempt": {
+    "attempted_on": "2026-10-12",
+    "status": "Blocked by environment network allowlist; not live-verified",
+    "sources": [
+      {
+        "id": "apple-review",
+        "url": "https://developer.apple.com/app-store/review/guidelines/",
+        "status": "failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "id": "apple-privacy",
+        "url": "https://developer.apple.com/app-store/app-privacy-details/",
+        "status": "failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "id": "google-user-data",
+        "url": "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "status": "failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "id": "google-data-safety",
+        "url": "https://support.google.com/googleplay/android-developer/answer/10787469?hl=en",
+        "status": "failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "id": "google-delete-account",
+        "url": "https://support.google.com/googleplay/android-developer/answer/13327111?hl=en",
+        "status": "failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "id": "google-ai-content",
+        "url": "https://support.google.com/googleplay/android-developer/answer/13985936?hl=en",
+        "status": "failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "id": "google-testing",
+        "url": "https://support.google.com/googleplay/android-developer/answer/14151465?hl=en",
+        "status": "failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "id": "google-target-api",
+        "url": "https://support.google.com/googleplay/android-developer/answer/11926878?hl=en",
+        "status": "failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "id": "apple-upcoming",
+        "url": "https://developer.apple.com/news/upcoming-requirements/",
+        "status": "failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "id": "gdpr",
+        "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng",
+        "status": "failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "id": "groq-data",
+        "url": "https://console.groq.com/docs/your-data",
+        "status": "failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "id": "supabase-dpa",
+        "url": "https://supabase.com/legal/dpa",
+        "status": "failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "id": "cloudflare-dpa",
+        "url": "https://www.cloudflare.com/cloudflare-customer-dpa/",
+        "status": "failed",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      }
+    ]
+  }
 }

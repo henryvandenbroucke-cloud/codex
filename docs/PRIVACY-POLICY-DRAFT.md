@@ -2,7 +2,7 @@
 
 Last updated: 12 October 2026. Status: draft for publisher review; not yet an effective or verified production policy.
 
-> Before publishing this policy, complete the bracketed fields and confirm the backend details listed below. The frontend and supplied Cloudflare Worker have been reviewed, but the Supabase database configuration, provider contracts, deployed environment settings and production logs were not supplied. Current official policy pages were blocked by the environment network allowlist during this review.
+> Before publishing this policy, complete the bracketed fields and confirm the backend details listed below. The frontend and supplied Cloudflare Worker have been reviewed, but the Supabase database configuration, provider contracts, deployed environment settings and production logs were not supplied. Official Apple/Google and provider requirements have now been checked; production settings and the bracketed facts still need confirmation.
 
 ## 1. Who is responsible for your information
 
@@ -56,7 +56,7 @@ The current interface lets you view or remove memories, turn memory off, and sta
 
 AI answers may be inaccurate. The assistant is not an emergency, medical or financial advisory service. Avoid including information you do not want processed by the AI services.
 
-**[Confirm Cloudflare and Groq processing roles, server logging, account tier, training/data-use settings, retention, deletion processes, locations and safeguards. Do not promise zero retention or no model training without verified account-specific evidence.]**
+Groq's documentation, checked on 12 October 2026, says inference inputs/outputs are not retained by default but may be temporarily logged for reliability or abuse monitoring for up to 30 days, unless legally required longer. Usage metadata is always collected. Zero Data Retention can be enabled in account Data Controls; retained customer data is described as stored in the United States. **[Confirm the actual Groq account settings, Cloudflare logs, applicable contracts, training/data-use terms, deletion processes and transfer safeguards before finalizing this section. Do not promise zero retention or no training without account-specific evidence.]**
 
 **[Implement an informed, explicit AI-sharing permission step before the first transmission, including AI-generated summaries, and provide a way to withdraw permission. This draft does not claim that step already exists.]**
 

@@ -1,6 +1,6 @@
 # Store privacy-disclosure worksheet
 
-Status: publisher worksheet, not completed App Store Connect or Play Console answers. Prepared 12 October 2026 from the frontend and supplied Worker. Current store definitions could not be fetched due the environment network allowlist.
+Status: publisher worksheet, not completed App Store Connect or Play Console answers. Prepared 12 October 2026 from the frontend and supplied Worker. Current official Apple/Google definitions were retrieved on 12 October 2026; see [verified requirements](VERIFIED-STORE-REQUIREMENTS.md).
 
 Local-only storage is distinct from transmission to a provider. Optional features still belong in the assessment when they transmit data. Account synchronization persists the full planner remotely. Provider handling of AI content/metadata, ephemeral-processing qualifications and sharing exemptions must be verified rather than assumed.
 
@@ -29,4 +29,4 @@ Do not answer “no data collected” for the app as a whole merely because the 
 5. Inspect any OS backups, additional SDKs, crash reporters, billing features and backend analytics before completing tracking, security and deletion claims.
 6. Keep a dated record of the final answers and update them when behavior/providers change.
 
-Official starting points: [Apple app privacy details](https://developer.apple.com/app-store/app-privacy-details/), [Google Data Safety](https://support.google.com/googleplay/android-developer/answer/10787469?hl=en), [Google User Data](https://support.google.com/googleplay/android-developer/answer/10144311?hl=en). Live retrieval was blocked in this review; these are references to verify, not fetched source quotations.
+Official starting points: [Apple app privacy details](https://developer.apple.com/app-store/app-privacy-details/), [Google Data Safety](https://support.google.com/googleplay/android-developer/answer/10787469?hl=en), [Google User Data](https://support.google.com/googleplay/android-developer/answer/10144311?hl=en). These pages were successfully retrieved in the current review. Google requires ephemeral processing to be included in the form response even where it is not displayed publicly; Apple defines collection as access beyond servicing the request in real time. Apply each definition separately to actual provider behavior.
